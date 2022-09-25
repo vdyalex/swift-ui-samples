@@ -5,7 +5,7 @@ struct ContentView: View {
     Color("background.accent.top"),
     Color("background.accent.bottom"),
   ]
-  @State var open = false
+  @State var isOpen = false
   let users: [UserModel] = UserModel.load()
 
   var background: some View {
@@ -35,13 +35,13 @@ struct ContentView: View {
       }
       .padding(.all, 20)
     }
-    .fullScreenCover(isPresented: $open) {
+    .sheet(isPresented: $isOpen) {
       OverlayModal(users: users)
     }
   }
 
   func onOpen() {
-    open = true
+    isOpen = true
   }
 }
 

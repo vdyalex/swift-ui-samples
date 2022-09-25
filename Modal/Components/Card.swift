@@ -11,7 +11,8 @@ struct Card: View {
   var email: String
   var image: String
 
-  @State var checked = false
+  @State var checked: Bool = false
+  @State var opacity: Double = 1.0
 
   var headshot: some View {
     Image(image)
@@ -42,13 +43,13 @@ struct Card: View {
     Button(action: onPress) {
       LazyVGrid(columns: COLUMNS) {
         Checkbox(checked: $checked)
-        headshot
-        user
+        headshot.opacity(opacity)
+        user.opacity(opacity)
       }
       .frame(maxWidth: .infinity, minHeight: 72)
       .padding(.all, 8)
       .padding(.horizontal, 8)
-      .background(Color("card.background"))
+      .background(Color("card.background").opacity(opacity))
       .cornerRadius(8)
       .shadow(color: Color("shadow"), radius: 16, y: 4)
     }
@@ -56,6 +57,7 @@ struct Card: View {
 
   func onPress() {
     checked.toggle()
+    opacity = checked ? 0.4 : 1.0
   }
 }
 

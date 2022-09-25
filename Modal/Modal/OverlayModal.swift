@@ -45,7 +45,7 @@ fileprivate struct Actions: View {
 
 struct OverlayModal: View {
   @Environment(\.presentationMode) var presentation
-  @State var displayAlert = false
+  @State var displayAlert: Bool = false
 
   var users: [UserModel] = []
 
