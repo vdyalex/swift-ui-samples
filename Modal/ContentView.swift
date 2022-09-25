@@ -1,26 +1,52 @@
-//
-//  ContentView.swift
-//  Modal
-//
-//  Created by Alexandre Azevedo on 24/09/2022.
-//
-
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+  let colors: [Color] = [
+    Color("background.accent.top"),
+    Color("background.accent.bottom"),
+  ]
+  @State var open = false
+  let users: [UserModel] = UserModel.load()
+
+  var background: some View {
+    LinearGradient(
+      colors: colors,
+      startPoint: .top,
+      endPoint: .center
+    )
+    .edgesIgnoringSafeArea(.bottom)
+  }
+
+  var title: some View {
+    Text("Drop Inc.")
+      .font(.system(size: 40).bold())
+      .foregroundColor(Color("title.primary"))
+  }
+
+  var body: some View {
+    ZStack {
+      background
+
+      VStack {
+        Spacer()
+        title
+        Spacer()
+        ButtonWide(label: "Ping Friends", onPress: onOpen)
+      }
+      .padding(.all, 20)
     }
+    .fullScreenCover(isPresented: $open) {
+      OverlayModal(users: users)
+    }
+  }
+
+  func onOpen() {
+    open = true
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+  static var previews: some View {
+    ContentView()
+  }
 }

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Steve Johnson",
+    "email": "steve.j92@hotmail.com",
+    "image": "user01"
+  },
+  {
+    "name": "Juan Avilar",
+    "email": "avilar.juan@live.com",
+    "image": "user02"
+  },
+  {
+    "name": "Natalia Lewandowska",
+    "email": "n.lewska31@onet.pl",
+    "image": "user03"
+  },
+  {
+    "name": "Bill Young",
+    "email": "billy@acme.co.uk",
+    "image": "user04"
+  },
+  {
+    "name": "Anderson Sousa",
+    "email": "andysousaf@uol.com.br",
+    "image": "user05"
+  },
+  {
+    "name": "John Woo",
+    "email": "wooj67@svk.jp",
+    "image": "user06"
+  },
+  {
+    "name": "Gunnar Jensen",
+    "email": "gun29@gmail.com",
+    "image": "user07"
+  },
+  {
+    "name": "John Steward",
+    "email": "stew.john@protonmail.com",
+    "image": "user08"
+  },
+]

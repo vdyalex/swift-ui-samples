@@ -11,6 +11,14 @@
 		23B5BE5328DFB2D700E9C68A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5BE5228DFB2D700E9C68A /* ContentView.swift */; };
 		23B5BE5528DFB2D800E9C68A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B5BE5428DFB2D800E9C68A /* Assets.xcassets */; };
 		23B5BE5828DFB2D800E9C68A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B5BE5728DFB2D800E9C68A /* Preview Assets.xcassets */; };
+		23B5BE5F28DFB39B00E9C68A /* OverlayModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5BE5E28DFB39B00E9C68A /* OverlayModal.swift */; };
+		23B5BE6128DFB3C600E9C68A /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5BE6028DFB3C600E9C68A /* Checkbox.swift */; };
+		23B5BE6328DFB3DC00E9C68A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5BE6228DFB3DC00E9C68A /* Card.swift */; };
+		23B5BE6528DFB3F200E9C68A /* ButtonOutline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5BE6428DFB3F200E9C68A /* ButtonOutline.swift */; };
+		23B5BE6A28DFB86500E9C68A /* ButtonWide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5BE6928DFB86500E9C68A /* ButtonWide.swift */; };
+		23B5BE6D28DFC0CD00E9C68A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5BE6C28DFC0CD00E9C68A /* User.swift */; };
+		23B5BE6F28DFC19E00E9C68A /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 23B5BE6E28DFC19E00E9C68A /* users.json */; };
+		23B5BE7128DFC9E600E9C68A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B5BE7028DFC9E600E9C68A /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		23B5BE5228DFB2D700E9C68A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23B5BE5428DFB2D800E9C68A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23B5BE5728DFB2D800E9C68A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23B5BE5E28DFB39B00E9C68A /* OverlayModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayModal.swift; sourceTree = "<group>"; };
+		23B5BE6028DFB3C600E9C68A /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		23B5BE6228DFB3DC00E9C68A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		23B5BE6428DFB3F200E9C68A /* ButtonOutline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonOutline.swift; sourceTree = "<group>"; };
+		23B5BE6928DFB86500E9C68A /* ButtonWide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWide.swift; sourceTree = "<group>"; };
+		23B5BE6C28DFC0CD00E9C68A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		23B5BE6E28DFC19E00E9C68A /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
+		23B5BE7028DFC9E600E9C68A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +67,12 @@
 		23B5BE4F28DFB2D700E9C68A /* Modal */ = {
 			isa = PBXGroup;
 			children = (
+				23E760F028DFCE0B00FB137E /* Resources */,
+				23B5BE6B28DFC0A900E9C68A /* Data */,
+				23B5BE6828DFB64900E9C68A /* Modal */,
+				23B5BE6628DFB62700E9C68A /* Components */,
 				23B5BE5028DFB2D700E9C68A /* ModalApp.swift */,
 				23B5BE5228DFB2D700E9C68A /* ContentView.swift */,
-				23B5BE5428DFB2D800E9C68A /* Assets.xcassets */,
 				23B5BE5628DFB2D800E9C68A /* Preview Content */,
 			);
 			path = Modal;
@@ -65,6 +84,43 @@
 				23B5BE5728DFB2D800E9C68A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		23B5BE6628DFB62700E9C68A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				23B5BE6428DFB3F200E9C68A /* ButtonOutline.swift */,
+				23B5BE6228DFB3DC00E9C68A /* Card.swift */,
+				23B5BE6028DFB3C600E9C68A /* Checkbox.swift */,
+				23B5BE6928DFB86500E9C68A /* ButtonWide.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		23B5BE6828DFB64900E9C68A /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				23B5BE5E28DFB39B00E9C68A /* OverlayModal.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		23B5BE6B28DFC0A900E9C68A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				23B5BE6C28DFC0CD00E9C68A /* User.swift */,
+				23B5BE6E28DFC19E00E9C68A /* users.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		23E760F028DFCE0B00FB137E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				23B5BE5428DFB2D800E9C68A /* Assets.xcassets */,
+				23B5BE7028DFC9E600E9C68A /* Colors.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +181,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23B5BE6F28DFC19E00E9C68A /* users.json in Resources */,
+				23B5BE7128DFC9E600E9C68A /* Colors.xcassets in Resources */,
 				23B5BE5828DFB2D800E9C68A /* Preview Assets.xcassets in Resources */,
 				23B5BE5528DFB2D800E9C68A /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +195,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23B5BE6D28DFC0CD00E9C68A /* User.swift in Sources */,
+				23B5BE6128DFB3C600E9C68A /* Checkbox.swift in Sources */,
+				23B5BE5F28DFB39B00E9C68A /* OverlayModal.swift in Sources */,
+				23B5BE6528DFB3F200E9C68A /* ButtonOutline.swift in Sources */,
+				23B5BE6328DFB3DC00E9C68A /* Card.swift in Sources */,
 				23B5BE5328DFB2D700E9C68A /* ContentView.swift in Sources */,
 				23B5BE5128DFB2D700E9C68A /* ModalApp.swift in Sources */,
+				23B5BE6A28DFB86500E9C68A /* ButtonWide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,17 +328,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Modal/Preview Content\"";
 				DEVELOPMENT_TEAM = 76ZTXP7WC3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Modal;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,17 +360,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Modal/Preview Content\"";
 				DEVELOPMENT_TEAM = 76ZTXP7WC3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Modal;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
