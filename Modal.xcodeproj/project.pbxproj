@@ -15,7 +15,7 @@
 		23074DBE28E05F8E00972810 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23074DC028E05F8E00972810 /* Localizable.strings */; };
 		23074DCD28E08B4800972810 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23074DCF28E08B4800972810 /* InfoPlist.strings */; };
 		23074DDB28E08DF400972810 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23074DDA28E08DF400972810 /* Media.xcassets */; };
-		2359456E28E0ACCB00D31FF4 /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359456D28E0ACCB00D31FF4 /* ItemList.swift */; };
+		2359456E28E0ACCB00D31FF4 /* ScrollList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359456D28E0ACCB00D31FF4 /* ScrollList.swift */; };
 		2359457028E0B77900D31FF4 /* NavigationHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359456F28E0B77900D31FF4 /* NavigationHeader.swift */; };
 		2359457228E0B94D00D31FF4 /* SubTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359457128E0B94D00D31FF4 /* SubTitle.swift */; };
 		23B5BE5128DFB2D700E9C68A /* ModalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5BE5028DFB2D700E9C68A /* ModalApp.swift */; };
@@ -57,7 +57,7 @@
 		23074DD628E08B5B00972810 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		23074DD728E08B5C00972810 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		23074DDA28E08DF400972810 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		2359456D28E0ACCB00D31FF4 /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
+		2359456D28E0ACCB00D31FF4 /* ScrollList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollList.swift; sourceTree = "<group>"; };
 		2359456F28E0B77900D31FF4 /* NavigationHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHeader.swift; sourceTree = "<group>"; };
 		2359457128E0B94D00D31FF4 /* SubTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTitle.swift; sourceTree = "<group>"; };
 		23B5BE4D28DFB2D700E9C68A /* Modal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modal.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,7 +136,7 @@
 				23074DB628E059D200972810 /* Logo.swift */,
 				23074DB828E05A1500972810 /* Title.swift */,
 				23074DBA28E05AB500972810 /* Background.swift */,
-				2359456D28E0ACCB00D31FF4 /* ItemList.swift */,
+				2359456D28E0ACCB00D31FF4 /* ScrollList.swift */,
 				2359456F28E0B77900D31FF4 /* NavigationHeader.swift */,
 				2359457128E0B94D00D31FF4 /* SubTitle.swift */,
 			);
@@ -267,7 +267,7 @@
 				23B5BE6328DFB3DC00E9C68A /* Card.swift in Sources */,
 				23B5BE5328DFB2D700E9C68A /* ContentView.swift in Sources */,
 				23B5BE5128DFB2D700E9C68A /* ModalApp.swift in Sources */,
-				2359456E28E0ACCB00D31FF4 /* ItemList.swift in Sources */,
+				2359456E28E0ACCB00D31FF4 /* ScrollList.swift in Sources */,
 				23074DB528E0598900972810 /* UserInfo.swift in Sources */,
 				23074DBB28E05AB500972810 /* Background.swift in Sources */,
 				23B5BE6A28DFB86500E9C68A /* ButtonPrimary.swift in Sources */,

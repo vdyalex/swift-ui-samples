@@ -31,7 +31,7 @@ struct OverlayModal: View {
 
         Actions()
 
-        ItemList {
+        ScrollList {
           ForEach(users) { user in
             Card(name: user.name, email: user.email, image: user.image)
           }

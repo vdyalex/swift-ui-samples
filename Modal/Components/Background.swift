@@ -7,8 +7,8 @@ enum BackgroundStyle {
 
 private struct GradientBackground: View {
   let colors: [Color] = [
-    Color("BackgroundAccentTop"),
-    Color("BackgroundAccentBottom"),
+    Color("BackgroundGradientTop"),
+    Color("BackgroundGradientBottom"),
   ]
 
   var body: some View {

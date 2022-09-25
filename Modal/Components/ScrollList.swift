@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ItemList<Content>: View where Content: View {
+struct ScrollList<Content>: View where Content: View {
   @ViewBuilder var content: () -> Content
 
   var body: some View {
@@ -17,7 +17,7 @@ struct ItemList<Content>: View where Content: View {
 
 struct ItemList_Previews: PreviewProvider {
   static var previews: some View {
-    ItemList {
+    ScrollList {
       Text(verbatim: "Content")
     }
   }
