@@ -1,0 +1,13 @@
+"HOME_SCREEN_TITLE" = "Gota S.A.";
+"HOME_SCREEN_ACTION_PING" = "Cutucar Amigos";
+
+"PING_SCREEN_TITLE" = "Cutucar amigos inativos";
+"PING_SCREEN_SUBTITLE %lld" = "%lld amigos";
+
+"PING_SCREEN_ACTION_SELECT_ALL" = "Selecionar todos";
+"PING_SCREEN_ACTION_UNSELECT_ALL" = "Desselecionar todos";
+"PING_SCREEN_ACTION_PING" = "Cutucar Amigos";
+
+"PING_SCREEN_MESSAGE_TITLE" = "Maravilha!";
+"PING_SCREEN_MESSAGE_DISMISS" = "Continuar";
+"PING_SCREEN_MESSAGE_SUCCESS" = "Os amigos que você selecionou receberão uma notificação em breve.";

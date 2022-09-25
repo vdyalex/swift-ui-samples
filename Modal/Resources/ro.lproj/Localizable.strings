@@ -1,0 +1,13 @@
+"HOME_SCREEN_TITLE" = "Picătură S.A.";
+"HOME_SCREEN_ACTION_PING" = "Pune-ți prietenii";
+
+"PING_SCREEN_TITLE" = "Pune-ți prietenii inactivi";
+"PING_SCREEN_SUBTITLE %lld" = "%lld prieteni";
+
+"PING_SCREEN_ACTION_SELECT_ALL" = "Selectează tot";
+"PING_SCREEN_ACTION_UNSELECT_ALL" = "Deselectați toate";
+"PING_SCREEN_ACTION_PING" = "Pune-ți prietenii";
+
+"PING_SCREEN_MESSAGE_TITLE" = "Ura!";
+"PING_SCREEN_MESSAGE_DISMISS" = "Continua";
+"PING_SCREEN_MESSAGE_SUCCESS" = "Prietenii selectați vor primi o notificare în curând.";

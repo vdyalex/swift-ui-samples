@@ -1,0 +1,13 @@
+"HOME_SCREEN_TITLE" = "Upuszczać Sp z o.o";
+"HOME_SCREEN_ACTION_PING" = "Szturchnij Znajomych";
+
+"PING_SCREEN_TITLE" = "Szturchnij swoich nieaktywnych znajomych";
+"PING_SCREEN_SUBTITLE %lld" = "%lld przyjaciele";
+
+"PING_SCREEN_ACTION_SELECT_ALL" = "Zaznacz wszystko";
+"PING_SCREEN_ACTION_UNSELECT_ALL" = "Odznacz wszystkie";
+"PING_SCREEN_ACTION_PING" = "Szturchnij Znajomych";
+
+"PING_SCREEN_MESSAGE_TITLE" = "Bravo!";
+"PING_SCREEN_MESSAGE_DISMISS" = "Kontynuować";
+"PING_SCREEN_MESSAGE_SUCCESS" = "Wybrani znajomi wkrótce otrzymają powiadomienie.";

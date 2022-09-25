@@ -1,5 +1,7 @@
 import Foundation
 
+// TODO: Enhance this method of fetching users
+
 class UserModel: Codable, Identifiable {
   enum CodingKeys: CodingKey {
     case name

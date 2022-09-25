@@ -1,0 +1,13 @@
+"HOME_SCREEN_TITLE" = "Капля ПАО";
+"HOME_SCREEN_ACTION_PING" = "Ткните своих друзей";
+
+"PING_SCREEN_TITLE" = "Ткните своих неактивных друзей";
+"PING_SCREEN_SUBTITLE %lld" = "%lld друзей";
+
+"PING_SCREEN_ACTION_SELECT_ALL" = "Выбрать все";
+"PING_SCREEN_ACTION_UNSELECT_ALL" = "Снять все";
+"PING_SCREEN_ACTION_PING" = "Ткните своих друзей";
+
+"PING_SCREEN_MESSAGE_TITLE" = "Ура!";
+"PING_SCREEN_MESSAGE_DISMISS" = "Оставаться";
+"PING_SCREEN_MESSAGE_SUCCESS" = "Выбранные вами друзья скоро получат уведомление.";
