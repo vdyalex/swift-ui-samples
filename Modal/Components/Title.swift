@@ -1,14 +1,14 @@
 import SwiftUI
 
 struct Title: View {
-  var title: String
+  var title: LocalizedStringKey
 
-  init(_ title: String) {
+  init(_ title: LocalizedStringKey) {
     self.title = title
   }
 
   var body: some View {
-    Text(LocalizedStringKey(title))
+    Text(title)
       .font(.system(size: 40).bold())
       .foregroundColor(Color("TitlePrimary"))
   }

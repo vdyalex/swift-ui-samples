@@ -15,12 +15,17 @@ private struct ButtonBackground: View {
 }
 
 struct ButtonSecondary: View {
-  var label: String
+  var label: LocalizedStringKey
   var onPress: () -> Void
+
+  init(_ label: LocalizedStringKey, onPress: @escaping () -> Void = {}) {
+    self.label = label
+    self.onPress = onPress
+  }
 
   var body: some View {
     Button(action: onPress) {
-      Text(LocalizedStringKey(label))
+      Text(label)
         .font(.system(size: 16).bold())
         .padding(.vertical, 12)
         .foregroundColor(Color("ButtonSecondaryLabel"))
@@ -33,6 +38,6 @@ struct ButtonSecondary: View {
 
 struct ButtonSecondary_Previews: PreviewProvider {
   static var previews: some View {
-    ButtonSecondary(label: "My Button") {}
+    ButtonSecondary("My Button")
   }
 }

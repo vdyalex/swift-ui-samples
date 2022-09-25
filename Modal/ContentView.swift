@@ -5,15 +5,13 @@ struct ContentView: View {
   let users: [UserModel] = UserModel.load()
 
   var body: some View {
-    ZStack {
-      Background()
-
+    Background(.gradient) {
       VStack {
         Spacer()
         Logo()
         Title("HOME_SCREEN_TITLE")
         Spacer()
-        ButtonPrimary(label: "HOME_SCREEN_ACTION_PING", onPress: onOpen)
+        ButtonPrimary("HOME_SCREEN_ACTION_PING", onPress: onOpen)
       }
       .padding(.all, 20)
     }
