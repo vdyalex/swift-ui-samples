@@ -35,7 +35,7 @@ struct ContentView: View {
       }
       .padding(.all, 20)
     }
-    .sheet(isPresented: $isOpen) {
+    .fullScreenCover(isPresented: $isOpen) {
       OverlayModal(users: users)
     }
   }
